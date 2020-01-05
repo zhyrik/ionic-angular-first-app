@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  text = 'default text';
 
+  changeText() {
+    this.text = 'new changed text!';
+  }
 }

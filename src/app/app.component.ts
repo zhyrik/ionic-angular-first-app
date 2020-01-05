@@ -18,6 +18,8 @@ export class AppComponent {
     this.initializeApp();
   }
 
+  arr: string[] = ['one', 'two', 'three'];
+
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
